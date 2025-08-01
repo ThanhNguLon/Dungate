@@ -1,0 +1,9 @@
+name: DungeonGate
+version: '1.0'
+main: me.thanhmagics.DungeonGate
+api-version: '1.21'
+commands:
+  newschematic:
+    usage: /<command>
+  dnGateReload:
+    usage: /<command>

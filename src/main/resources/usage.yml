@@ -1,0 +1,5 @@
+ cách tạo 'sch': 'sử dụng /newschematic <name> để mã hóa một gate (chạy lệnh rồi đập vào 2 block tạo thành 1 khối không gian,
+ lần đập thứ nhất block không bị mất, lần đập thứ 2 block sẽ không lưu bởi vì block thứ 2 là block của lệnh vd //up 1
+ nên không đc lưu cho đẹp công trình)
+ 
+ còn lại xem trong config'

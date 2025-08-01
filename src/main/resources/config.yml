@@ -1,0 +1,22 @@
+spawn: 'world,1,2,3'
+gates:
+    test:
+      sch: 'abc.sch' #file schematic
+      live-time: '5h5m-5h7m'
+      to: 'world,1,100,1'
+      gate: 'world,10,50,10' # vị trí của gate
+      message: #message khi bước vào cổng
+        - 'hello'
+      onDeny:
+        - 'đã full player, vui lòng có rank để vào'
+      max_player: '15'
+      perm: 'op' #perm để vào gate là khi gate đã full
+    pro:
+      sch: 'gate69.sch'
+      live-time: '1h0m-9h1m'
+      to: 'world,1,2,3'
+      gate: 'world,222,2,2'
+      message: []
+      onDeny: []
+      max_player: '15'
+      perm: 'op'
